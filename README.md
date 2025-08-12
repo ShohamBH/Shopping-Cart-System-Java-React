@@ -1,38 +1,36 @@
 "# Shopping-Cart-System-Java-React"  
-Shopping Cart & Coupons Management System
-A system built with Spring Boot (Backend) and React (Frontend) for managing coupons, companies, and customers.
+# Shopping Cart and Coupons Management System
 
-Backend
-Java Spring Boot REST API
+### Overview  
+This system is designed for managing shopping carts, coupons, companies, and customers in an integrated and user-friendly way. It is built using modern technologies including **React** for the frontend, **Spring Boot** for the backend, and **MySQL** as the database.
 
-CRUD operations for companies, coupons, and customers
+### Technologies  
+- **Frontend:** React.js – a modern, responsive, and user-friendly interface  
+- **Backend:** Spring Boot – a robust and modular REST API handling business logic  
+- **Database:** MySQL – reliable and efficient data storage  
 
-User authentication with JWT
+### Key Features  
+- Management of companies and customers  
+- Create, update, and delete coupons and shopping carts  
+- Advanced filtering and querying capabilities  
+- Role-based access control (as needed)  
+- Secure data transactions stored in MySQL  
+- Intuitive and easy-to-use user interface  
 
-Business logic for managing shopping carts and coupons
+### Installation and Running  
+1. Ensure MySQL is installed and running locally or on a server  
+2. Configure database connection details in Spring Boot’s `application.properties` or `application.yml` file  
+3. Run the Spring Boot backend server  
+4. Run the React frontend application (e.g., with `npm run dev`)  
 
-Frontend
-React with Material UI for a clean and efficient user interface
+### Project Structure  
+- **backend/** – Java Spring Boot backend code  
+- **frontend/** – React application code  
+- **SQL scripts/** – (optional) SQL scripts for database setup  
 
-Axios for communication with the backend API
+### Future Improvements  
+- Enhanced role-based authorization system  
+- Improved user experience (UX) on the frontend  
+- Reporting and data analysis features  
+- Integration with external payment services  
 
-Company management including search, add, update, and delete
-
-Display of coupons and customer details
-
-How to Run
-Start the Spring Boot backend server.
-
-Run the React frontend project:
-
-npm install
-npm run dev
-
-Make sure the backend API is available at http://localhost:8080/Admin.
-
-Store the JWT token in localStorage under the key token.
-
-Notes
-Ensure the data structure matches between frontend and backend, especially the credentional object containing email and password.
-
-Error handling and user notifications are implemented for a better user experience.
